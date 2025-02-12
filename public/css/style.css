@@ -1,3 +1,54 @@
-body{
-    background-color: aqua;
+.navbar {
+    height: 5rem;
 }
+
+.fa-location-arrow {
+    font-size: 3rem;
+    color: rgba(246, 64, 144, 0.82);
+}
+
+.nav-link {
+    color: #222222 !important;
+
+}
+.f-main{
+    display: flex;
+    /*border: 2px solid black;*/
+}
+.f-left{
+    width: 50%;
+    margin-top: 0.5rem;
+    margin-left: 4rem;
+}
+.f-right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    /*border: 2px solid red;*/
+    justify-content: end;
+    margin-top: 0.5rem;
+    margin-right: 4rem;
+}
+.f-right-content {
+    margin-right: 1.5rem;
+}
+
+footer {
+    height: 3rem !important;
+    border-top:  2px solid #2222;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration-line: underline;
+}
+
+.f-right-content a {
+    text-decoration: none;
+}
+
+
